@@ -49,12 +49,21 @@
 
 .top-line 
 
-
-
 .logo 
 
+.logo-webstudio {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.33;
 
-
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #2E2F42; 
+    /* color: #f30b17; */
+}
 .logo-web {
     width: 44px;
     height: 24px;
@@ -62,29 +71,14 @@
     font-weight: 800;
     font-size: 18px;
     line-height: 1.33;
-
     display: flex;
     align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-
     color: #4D5AE5;
     flex: none;
     order: 0;
     flex-grow: 0;
-}
-
-.logo-studio {
-    font-family: 'Raleway', sans-serif;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.33;
-
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #2E2F42;
 }
 
 .menu-nav 
@@ -211,6 +205,23 @@
 
 /* ====================================== /HERO ======================================  */
 
+/* ====================================== PORTFOLIO MAIN ======================================  */
+
+/* .Filters {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+
+    position: absolute;
+    width: 586px;
+    height: 48px;
+    left: 427px;
+    top: 168px;
+
+} */
+
 .filters-button {
     font-family: 'Roboto', sans-serif;
     font-weight: 600;
@@ -236,3 +247,153 @@
     border-radius: 4px;
     cursor: pointer;
 }
+
+.img-portfolio {
+    /* position: absolute;
+width: 360px;
+height: 300px;
+left: 0px;
+top: 0px; */
+
+background: linear-gradient(0deg, rgba(77, 90, 229, 0.1), 
+rgba(77, 90, 229, 0.1)), url(4074365.jpg);
+background-blend-mode: soft-light, normal;
+mix-blend-mode: normal;
+}
+
+/* ==================== ROW-1 ==================== */
+/* .rov-one {
+    position: absolute;
+    width: 1128px;
+    height: 420px;
+    left: 156px;
+    top: 288px;
+}
+
+.project-card-1 {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 360px;
+    height: 420px;
+    left: 156px;
+    top: 288px;
+
+    background: #FFFFFF;
+}
+
+.project-card-2 {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 360px;
+    height: 420px;
+    left: 540px;
+    top: 288px;
+
+    background: #FFFFFF;
+}
+
+.project-card-3 {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 360px;
+    height: 420px;
+    left: 924px;
+    top: 288px;
+
+    background: #FFFFFF;
+} */
+/* ==================== //ROW-1 ==================== */
+/* ==================== ROW-2 ==================== */
+/* .rov-two {
+    position: absolute;
+    width: 1128px;
+    height: 420px;
+    left: 156px;
+    top: 756px;
+}
+
+.project-card-4 {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 360px;
+    height: 420px;
+    left: 156px;
+    top: 756px;
+
+    background: #FFFFFF;
+}
+
+.project-card-5 {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 360px;
+    height: 420px;
+    left: 540px;
+    top: 756px;
+
+    background: #FFFFFF;
+}
+
+.project-card-6 {
+   box-sizing: border-box;
+
+    position: absolute;
+    width: 360px;
+    height: 420px;
+    left: 924px;
+    top: 756px;
+
+    background: #FFFFFF;
+} */
+/* ==================== //ROW-2 ==================== */
+
+/* ==================== ROW-3 ==================== */
+/* .rov-three {
+    position: absolute;
+    width: 1128px;
+    height: 420px;
+    left: 156px;
+    top: 1224px;
+} 
+
+.project-card-7 {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 360px;
+    height: 420px;
+    left: 156px;
+    top: 1224px;
+
+    background: #FFFFFF;
+}
+
+.project-card-8 {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 360px;
+    height: 420px;
+    left: 540px;
+    top: 1224px;
+
+    background: #FFFFFF;
+}
+
+.project-card-9 {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 360px;
+    height: 420px;
+    left: 924px;
+    top: 1224px;
+
+    background: #FFFFFF;
+} */
+/* ==================== // ROW-3 ==================== */
