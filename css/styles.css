@@ -1,8 +1,4 @@
-/* ul,
-ol {
-    list-style: none;
-}  
-*/
+/* ====================================== COMPONENTS ======================================  */
 
 .list {
     list-style: none;
@@ -10,20 +6,72 @@ ol {
 
 .link {
     text-decoration: none;
+    
 }
 
+.title-text {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 1.11;
+    /* identical to box height, or 111% */
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2E2F42;
+}
+
+.section-title-text {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
+.section-description {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+/* ====================================== /COMPONENTS ======================================  */
+
+/* ====================================== HEADER ======================================  */
+.page-header 
+
+.top-line 
+
+
+
+.logo 
+
+
+
 .logo-web {
-   font-family: 'Raleway', sans-serif;
+    width: 44px;
+    height: 24px;
+    font-family: 'Raleway', sans-serif;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.33;
-    /* identical to box height, or 133% */
+
     display: flex;
     align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    /* IRIS */
+
     color: #4D5AE5;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
 }
 
 .logo-studio {
@@ -31,23 +79,24 @@ ol {
     font-weight: 800;
     font-size: 18px;
     line-height: 1.33;
-    /* identical to box height, or 133% */
+
     display: flex;
     align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    /* NAVY BLUE */
     color: #2E2F42;
 }
+
+.menu-nav 
+
+
 
 .menu-link {
     font-family: 'Roboto', sans-serif;
     font-weight: 600;
     font-size: 16px;
     line-height: 1.5;
-    /* identical to box height, or 150% */
     letter-spacing: 0.02em;
-    /* NAVY BLUE */
     color: #2E2F42;
 }
 
@@ -73,6 +122,8 @@ ol {
 }
 
 .contact-phone-number {
+
+    
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 16px;
@@ -88,70 +139,100 @@ ol {
 .contact-phone-number:focus {
     color: #4D5AE5;
 }
+/* ====================================== / HEADER ======================================  */
+
+/* ====================================== HERO ======================================  */
+.hero
+
+.hero-photo
 
 
-
-
+.main-title {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
 
 .modal-btn {
     font-family: 'Roboto', sans-serif;
     font-weight: 600;
     font-size: 16px;
     line-height: 1.19;
-    cursor: pointer;
-    /* identical to box height */
     display: flex;
     align-items: center;
     letter-spacing: 0.04em;
     color: #FFFFFF;
-    /* Inside auto layout */
-    flex: none;
-    order: 0;
-    flex-grow: 0;
+    background: #4D5AE5;
 }
-
 
 .modal-btn:hover, 
 .modal-btn:focus {
     background: #4D5AE5;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
+    cursor: pointer;
 }
 
-.title-text {
+/* -------------section 1------------- */
+.first-section-link:hover, 
+.first-section-link:focus {
+    color: #4D5AE5;
+    cursor: pointer;
+
+}
+
+/* -------------section 2------------- */
+
+.second-section-link:hover,
+.second-section-link:focus {
+    box-sizing: border-box;
+    background: linear-gradient(0deg, rgba(77, 90, 229, 0.1),
+     rgba(77, 90, 229, 0.1)),
+      url(2368.jpg);
+    background-blend-mode: soft-light, normal;
+    border: 1px solid #E7E9FC;
+}
+
+/* -------------section 3------------- */
+
+.third-section-photo:hover,
+.third-section-photo:focus {
+    background: #FFFFFF;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    border-radius: 0px 0px 4px 4px;
+}
+
+
+
+/* ====================================== /HERO ======================================  */
+
+.filters-button {
     font-family: 'Roboto', sans-serif;
     font-weight: 600;
-    font-size: 36px;
-    line-height: 1.11;
-    /* identical to box height, or 111% */
-    text-align: center;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-    color: #2E2F42;
-}
-
-.main-title {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 600;
-    font-size: 56px;
-    line-height: 1.07;
-    /* or 107% */
-    text-align: center;
-    letter-spacing: 0.02em;
-    color: #271919;
-}
-
-.section-description {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
-    /* or 150% */
-    letter-spacing: 0.02em;
-    /* SLATE */
-    color: #434455;
-    /* Inside auto layout */
-    flex: none;
-    order: 1;
-    flex-grow: 0;
+    /* identical to box height, or 150% */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;
+    background: #FFFFFF;
+    color: #4D5AE5;
+}
+
+.filters-btn:hover,
+.filters-btn:focus {
+    background-color: #4D5AE5;
+    color: #FFFFFF;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
+    0px 2px 1px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    cursor: pointer;
 }

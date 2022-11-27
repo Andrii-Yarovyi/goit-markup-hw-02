@@ -14,54 +14,58 @@
 <body>
 <!-- HEADER -->
     <header class="page-header">
-        <nav class="pagr-nav">
+        <div class="">
+            <nav class="">
         <!--logo WEBSTUDIO-->
-            <div class="">
-                <a class="logo-web" href="./index.html">WEB</a>
-                <a class="logo-studio" href="./index.html">STUDIO</a>
-            </div>
             
-            <div class="">
-                <ul class="menu list">
-                    <li class="menu-item">
-                        <a class="menu-link link" href="">Studio</a>
-                    </li>
-                    <li class="menu-item">
-                        <a class="menu-link link" href="./portfolio.html">Portfolio</a>
-                    </li>
-                    <li class="menu-item">
-                        <a class="menu-link link" href="">Contacts</a>
-                    </li>
-                </ul>
-            </div>
+                <div class="logo">
+                    <a class="logo-web" href="./index.html">WEB</a>
+                    <a class="logo-studio" href="./index.html">STUDIO</a>
+                </div>
+            
+                <div class="menu-nav">
+                    <ul class="menu list">
+                        <li class="menu-item">
+                            <a class="menu-link link" href="">Studio</a>
+                        </li>
+                        <li class="menu-item">
+                            <a class="menu-link link" href="./portfolio.html">Portfolio</a>
+                        </li>
+                        <li class="menu-item">
+                            <a class="menu-link link" href="">Contacts</a>
+                        </li>
+                    </ul>
+                </div>
         
-        </nav>
-        <ul class="">
-            <li class="list"><a class="contact-mail-address link" href="mailto:info@devstudio.com">info@devstudio.com</a>
-            </li>
-            <li class="list"><a class="contact-phone-number link" href="tel:+110001111111">+11 (000) 111-11-11</a>
-            </li>
-        </ul>    
+            </nav>
+            <ul class="">
+                <li class="list"><a class="contact-mail-address link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                </li>
+                <li class="list"><a class="contact-phone-number link" href="tel:+110001111111">+11 (000) 111-11-11</a>
+                </li>
+            </ul>
+        </div>
+            
     </header>
 
 <main>
     <div> <!--filters-->
         <section>
-            <ul>
+            <ul class="list">
                 <li>
-                    <button type="button">All</button>
+                    <button class="filters-button filters-btn" type="button">All</button>
                 </li>
                 <li>
-                    <button type="button">Web Site</button>
+                    <button class="filters-button filters-btn" type="button">Web Site</button>
                 </li>
                 <li>
-                    <button type="button">App</button>
+                    <button class="filters-button filters-btn" type="button">App</button>
                 </li>
                 <li>
-                    <button type="button">Design</button>
+                    <button class="filters-button filters-btn" type="button">Design</button>
                 </li>
                 <li>
-                    <button type="button">Marketing</button>
+                    <button class="filters-button filters-btn" type="button">Marketing</button>
                 </li>
             </ul>
         </section>
@@ -80,140 +84,156 @@
 
 
     <section> 
-        <ul>
+        <ul class="list">
             <li><!--ROW 1 - ряд 1-->
-                <ul>
+                <ul class="list">
                     <li> <!--Banking App Interface Concept - Концепція інтерфейсу банківської програми-->
-                <a href="">
-                     <div>
-                        <img src="./imades/row-1/bankapp.jpg"
-                            alt="BankApp" width="360" height="300">
-                        <p>14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App</p>
-                    </div>
+                        <a class="link" href="">
+                            <div>
+                                <img src="./imades/row-1/bankapp.jpg"
+                                alt="BankApp" 
+                                width="360" 
+                                height="300">
+                                <p>14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App</p>
+                            </div>
 
-                    <div> <!--Card Content-->
-                        <h3>Banking App Interface Concept</h3>
-                        <p>App</p> 
-                    </div>
-                </a>
+                            <div> <!--Card Content-->
+                                <h3 class="section-title-text">Banking App Interface Concept</h3>
+                                <p section-description>App</p> 
+                            </div>
+                        </a>
                     </li>
                     <li> <!--Cashless Payment - Безготівковий розрахунок-->
-                <a href="">
-                    <div>
-                        <img src="./imades/row-1/cashless-payment.jpg" alt="blue background" width="360" height="300">
-                        <p>14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App</p>
-                    </div>
-
-                    <div> <!--Card Content-->
-                        <h3>Cashless Payment</h3>
-                        <p>Marketing</p> 
-                    </div>
-                </a>
+                        <a class="link" href="">
+                            <div>
+                                <img src="./imades/row-1/cashless-payment.jpg" 
+                                alt="blue background" 
+                                width="360" 
+                                height="300">
+                                <p>14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App</p>
+                            </div>
+                            <div> <!--Card Content-->
+                                <h3 class="section-title-text">Cashless Payment</h3>
+                                <p section-description>Marketing</p> 
+                            </div>
+                        </a>
                     </li>
                     <li> <!--Meditaion App - Додаток для медитації-->
-                <a href="">
-                    <div>
-                        <img src="./imades/row-1/meditation-app.jpg" alt="Meditaion App" width="360" height="300">
-                        <p>14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App</p>
-                    </div>
+                        <a class="link" href="">
+                            <div>
+                                <img src="./imades/row-1/meditation-app.jpg" 
+                                alt="Meditaion App" 
+                                width="360" 
+                                height="300">
+                                <p>14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App</p>
+                            </div>
 
-                    <div> <!--Card Content-->
-                        <h3>Meditaion App</h3>
-                        <p>App</p> 
-                    </div>
-                </a>
-                    
+                            <div> <!--Card Content-->
+                                <h3 class="section-title-text">Meditaion App</h3>
+                                <p section-description>App</p> 
+                            </div>
+                        </a>
                     </li>
                 </ul>
             </li>
             <li><!--ROW 2 - ряд 2-->
-                 <ul>
+                <ul class="list">
                     <li> <!--Taxi Service - Служба таксі-->
-                    <a href="">
-                    <div>
-                        <img src="./imades/row-2/taxi-service.jpg"
-                         alt="BankApp" width="360" height="300">
-                         <p>14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App</p>
-                    </div>
-
-                    <div> <!---->
-                        <h3>Taxi Service</h3>
-                        <p>Markwting</p> 
-                    </div>
-                </a>   
-            </li>
-
-            <li> <!--Screen Illustrations - Екранні ілюстрації-->
-                <a href="">
-                    <div>
-                        <img src="./imades/row-2/screen-illustrations.jpg" alt="Screen Illustrations" width="360" height="300">
-                        <p>14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App</p>
-                    </div>
-
-                    <div> <!---->
-                        <h3>Screen Illustrations</h3>
-                        <p>Design</p> 
-                    </div>
-                </a> 
-            </li>
-
-            <li> <!--Online Courses - Онлайн курси-->
-                <a href="">
-                    <div>
-                        <img src="./imades/row-2/onlin-courses.jpg" alt="the girl is talking on the phone" width="360" height="300">
-                        <p>14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App</p>
-                    </div>
-
-                    <div> <!---->
-                        <h3>Online Courses</h3>
-                        <p>Marketing</p> 
-                    </div>
-                </a>    
-            </li>
-        </ul>
-
+                        <a class="link" href="">
+                            <div>
+                                <img src="./imades/row-2/taxi-service.jpg"
+                                alt="BankApp" 
+                                width="360" 
+                                height="300">
+                                <p>14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App</p>
+                            </div>
+                            <div> <!---->
+                                <h3 class="section-title-text">Taxi Service</h3>
+                                <p section-description>Markwting</p> 
+                            </div>
+                        </a>   
+                    </li>
+                    <li> <!--Screen Illustrations - Екранні ілюстрації-->
+                        <a class="link" href="">
+                            <div>
+                                <img src="./imades/row-2/screen-illustrations.jpg"
+                                alt="Screen Illustrations"
+                                width="360"
+                                height="300">
+                                <p>14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App</p>
+                            </div>
+                            <div> <!---->
+                                <h3 class="section-title-text">Screen Illustrations</h3>
+                                <p section-description>Design</p> 
+                            </div>
+                        </a> 
+                    </li>
+                    <li> <!--Online Courses - Онлайн курси-->
+                        <a class="link" href="">
+                            <div>
+                                <img src="./imades/row-2/onlin-courses.jpg" 
+                                alt="the girl is talking on the phone" 
+                                width="360" 
+                                height="300">
+                                <p>14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App</p>
+                            </div>
+                            <div> <!---->
+                                <h3 class="section-title-text">Online Courses</h3>
+                                <p section-description>Marketing</p> 
+                            </div>
+                        </a>    
+                    </li>
+                </ul>
             </li>
             <li><!--ROW 3 - ряд 3-->
-                <ul>
+                <ul class="list">
                     <li> <!--Instagram Stories Concept-->
-                        <a href="">
+                        <a class="link" href="">
                             <div>
                                 <img src="./imades/row-3/instagram-stories-concept.jpg"
-                                    alt="Instagram Stories Concept" width="360" height="300">
+                                alt="Instagram Stories Concept" 
+                                width="360" 
+                                height="300">
                                 <p>14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App</p>
                             </div>
 
                             <div> <!---->
-                                <h3>Instagram Stories Concept</h3>
-                                <p>Desing</p> 
+                                <h3 class="section-title-text">Instagram Stories Concept</h3>
+                                <p section-description>Desing</p> 
                             </div>
                         </a>
                     </li>
 
                     <li> <!--Organic Food - Натуральні харчові продукти-->
-                        <a href="">
+                        <a class="link" href="">
                             <div>
-                                <img src="./imades/row-3/organic-food.jpg" alt="the girl carries food" width="360" height="300">
+                                <img src="./imades/row-3/organic-food.jpg" 
+                                alt="the girl carries food" 
+                                width="360" 
+                                height="300">
                                 <p>14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App</p>
                             </div>
 
                             <div> <!---->
-                                <h3>Organic Food</h3>
-                                <p>Web Site</p> 
+                                <h3 class="section-title-text">Organic Food</h3>
+                                <p section-description>Web Site</p> 
                             </div>
                         </a>  
                     </li>
 
                     <li> <!--Fresh Coffee - Свіжа кава-->
-                        <a href="">
+                        <a class="link" href="">
                             <div>
-                                <img src="./imades/row-3/fresh-coffee.jpg" alt="the man makes coffee" width="360" height="300">
+                                <img src="./imades/row-3/fresh-coffee.jpg" 
+                                alt="the man makes coffee" 
+                                width="360" 
+                                height="300">
                                 <p>14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App .      Exotic Fruit Ecommerce App · Cloud Storage App</p>
                             </div>
 
                             <div> <!---->
-                                <h3>Fresh Coffee</h3>
-                                <p>Web Site</p> 
+                                <h3 class="section-title-text">Fresh Coffee</h3>
+                                <p section-description>Web Site</p> 
                             </div>
                         </a>
                     </li>
