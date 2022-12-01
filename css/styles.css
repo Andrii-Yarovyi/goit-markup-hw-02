@@ -1,29 +1,5 @@
 /* ====================================== COMPONENTS ======================================  */
 
-.main-page1 {
-  /* Wysokość */
-width: 1440px;
-
-/* Szyrokość */
-height: 2593px;
-
-/* Ramka, całościowa o grubości 10px + color */
-border: 10px solid tomato;
-
-/* odstęp wewnętrz. od ramki 10px */
-padding: 10px;
-
-/* Podany wymiar W, H, łącznie z ramkami i odst. */
-box-sizing: border-box;
-
-
-}
-
-/* zast. do wsivh boxiw */
-/* * {
-    box-sizing: border-box;
-} */
-
 body {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
@@ -31,7 +7,6 @@ body {
     color: var(--slate-text);
 }
 
-/* IRIS */
 :root{
     --iris-primary-brand: #4D5AE5;
     --navi-blue-dark: #2E2F42;
@@ -48,7 +23,6 @@ body {
 
 .link {
     text-decoration: none;
-    
 }
 
 .title-text {
@@ -155,23 +129,17 @@ body {
  .contact-mail-address:focus {
     color: var(--iris-primary-brand);
  }
-
 /* ====================================== / HEADER ======================================  */
 
 /* ====================================== HERO ======================================  */
-.hero
-
-.hero-photo
-
-
 .main-title {
     font-family: 'Roboto', sans-serif;
+    font-style: normal;
     font-weight: 600;
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
-    color: #FFFFFF;
 }
 
 .modal-btn {
@@ -227,13 +195,6 @@ body {
 } 
 
 /* -------------section 3------------- */
-.section-lll {
-    position: absolute;
-    width: 1440px;
-    height: 732px;
-    left: 0px;
-    top: 1551px;
-}
 
 .team-card {
     background: #FFFFFF;
@@ -247,7 +208,9 @@ body {
 .third-section-photo:hover,
 .third-section-photo:focus {
     background: #FFFFFF;
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 
+    0px 1px 1px rgba(46, 47, 66, 0.16), 
+    0px 2px 1px rgba(46, 47, 66, 0.08);
     border-radius: 0px 0px 4px 4px;
 }
 
@@ -276,17 +239,7 @@ body {
     border-radius: 4px;
 }
 
-/* .filters-btn:active{} */
-
 /* ==================== ROW-1 ==================== */
-/* .rov-one {
-        position: absolute;
-        width: 1128px;
-        height: 420px;
-        left: 156px;
-        top: 288px;
-} */
-
 .project-card:hover, 
 .project-card:focus {
     box-sizing: border-box;
@@ -304,20 +257,10 @@ body {
     mix-blend-mode: normal;
 }
 
-/* .img-portfolio-2 {
-    background: #4D5AE5;
-    background-blend-mode: soft-light;
-    mix-blend-mode: normal;
-} */
-
 /* ==================== //ROW-1 ==================== */
 
 /* ==================== ROW-2 ==================== */
-
-
 /* ==================== //ROW-2 ==================== */
 
 /* ==================== ROW-3 ==================== */
-
-
 /* ==================== // ROW-3 ==================== */
